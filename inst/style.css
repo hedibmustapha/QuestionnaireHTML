@@ -1,0 +1,11 @@
+body{
+  font-family: "arial Narrow";
+  font-size: 10pt;
+}
+
+h1.title {
+  font-size: 14pt;
+  font-family: "arial Narrow";
+  color: black;
+  text-align: center;
+}

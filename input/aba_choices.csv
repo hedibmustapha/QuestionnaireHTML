@@ -1,0 +1,266 @@
+list_name,name,label::Arabic,label::English,mantika
+ki_gender,male,ĞßÑ,Male,
+ki_gender,female,ÃäËì,Female,
+ki_age,between_18_30,18-30,18-30,
+ki_age,between_31_64,31-64,31-64,
+ki_age,over_64,65+,65+,
+yes_no,yes,äÚã,Yes,
+yes_no,no,áÇ,No,
+yes_no_dwta,yes,äÚã,Yes,
+yes_no_dwta,no,áÇ,No,
+yes_no_dwta,dwta,íİÖøá ??ã ÇáÅÌÇÈÉ,Prefer not to answer,
+yes_no_dk_dwta,yes,äÚã,Yes,
+yes_no_dk_dwta,no,áÇ,No,
+yes_no_dk_dwta,dk,? íÚÑİ,Don't know,
+yes_no_dk_dwta,dwta,íİÖøá ??ã ÇáÅÌÇÈÉ,Prefer not to answer,
+payment_modality,cash,äŞÏÇğ,Cash,
+payment_modality,credit_debit_card,ÈØÇŞÇÊ ÇáÇÆÊãÇä / ÇáÓÍÈ ,Credit/debit cards,
+payment_modality,certified_cheque,ÇáÔíßÇÊ ÇáãÚÊãÏÉ,Certified cheques,
+payment_modality,abnk_transfers,ÇáÊÍæíáÇÊ ÇáãÕÑİíÉ,Bank transfers,
+payment_modality,credit, ŞÓÇÆã ÔÑÇÁ,Store credit,
+payment_modality,mobile_money,ÇáÏİÚ Úä ØÑíŞ ÇáåÇÊİ ÇáÌæÇá,Mobile money,
+payment_modality,other,ÛíÑ Ğáß (íÑÌì ÇáÊÍÏíÏ),Other (please specify),
+payment_modality,dwta, íİÖá ÚÏã ÇáÅÌÇÈÉ,Prefer not to answer,
+payment_modality,dk,? íÚÑİ,Don't know,
+products_type,wheat_bread,ÎÈÒ ÇáŞãÍ,Wheat bread,
+products_type,wheat_flour, ÏŞíŞ ÇáŞãÍ,Wheat flour,
+products_type,other_bread, ÃäæÇÚ ÃÎÑì ãä ÇáÎÈÒ,Other types of bread,
+products_type,other_flour, ÃäæÇÚ ÃÎÑì ãä ÇáÏŞíŞ,Other types of flour,
+products_type,other,ãäÊÌÇÊ ÃÎÑì (íÑÌì ÊÍÏíÏåÇ),Other products (please specify),
+price_control,control_free,áå ÍÑíÉ ÊÍÏíÏ ÃÓÚÇÑ ÌãíÚ ÇáãäÊÌÇÊ ÇáãÈÇÚÉ,Free to set prices for all products sold,
+price_control,control_some_products, ÖæÇÈØ Úáì ÃÓÚÇÑ ÈÚÖ ÇáãäÊÌÇÊ ÇáãÈÇÚÉ,Price controls on some products sold,
+price_control,control_all_products, ÖæÇÈØ Úáì ÃÓÚÇÑ ÌãíÚ ÇáãäÊÌÇÊ ÇáãÈÇÚÉ,Price controls on all products sold,
+price_control,other,ÛíÑ Ğáß (íÑÌì ÇáÊÍÏíÏ),Other (please specify),
+price_control,dwta, íİÖá ÚÏã ÇáÅÌÇÈÉ,Prefer not to answer,
+change,increased,ÒÏÇÏÊ,Increased,
+change,same,ÈŞíÊ Úáì ÍÇáåÇ,Stayed the same,
+change,decreased,ÊäÇŞÕÊ,Decreased,
+change,other,ÛíÑ Ğáß (íÑÌì ÇáÊÍÏíÏ),Other (please specify),
+change,dk,? íÚÑİ,Don't know,
+change_futur,will_increase,ÓíÊÒÇíÏ,Will increase,
+change_futur,will_stay_same,ÓíÈŞì Úáì ÍÇáå,Will stay the same,
+change_futur,will_decrease,ÓíÊäÇŞÕ,Will decrease ,
+change_futur,other,ÛíÑ Ğáß (íÑÌì ÇáÊÍÏíÏ),Other (please specify),
+change_futur,dk,? íÚÑİ,Don't know,
+main_supplier,private,"ÊÇÌÑ ÊÌÒÆÉ áíÈí ÎÇÕ¡ ÊÇÌÑ ÌãáÉ¡ Ãæ ãÓÊæÑÏ","Private Libyan retailer, wholesaler, or importer",
+main_supplier,public,ÇáÓáØÇÊ ÇááíÈíÉ Ãæ åíÆÉ ÚÇãÉ ÃÎÑì,Libyan authorities or other public body,
+main_supplier,abroad, ÇÓÊíÑÇÏ ÇáÏŞíŞ ãÈÇÔÑÉ ãä ÇáÎÇÑÌ,Import flour directly from abroad,
+main_supplier,other, ÛíÑ Ğáß (íÑÌì ÇáÊÍÏíÏ),Other (please specify),
+mantika,LY0101,ÏÑäå,Derna,
+mantika,LY0102,ÇáãÑÌ,Almarj,
+mantika,LY0103,ÈäÛÇÒí,Benghazi,
+mantika,LY0104,ØÈÑŞ,Tobruk,
+mantika,LY0105,ÇÌÏÇÈíÇ,Ejdabia,
+mantika,LY0106,ÇáÌÈá ÇáÇÎÖÑ,Al Jabal Al Akhdar,
+mantika,LY0107,ÇáßİÑÉ,Alkufra,
+mantika,LY0208,ÓÑÊ,Sirt,
+mantika,LY0209,äÇáæÊ,Nalut,
+mantika,LY0210,ÇáãÑŞÈ,Almargeb,
+mantika,LY0211,ØÑÇÈáÓ,Tripoli,
+mantika,LY0212,ÇáÌİÇÑÉ,Aljfara,
+mantika,LY0213,ÇáÒÇæíÉ,Azzawya,
+mantika,LY0214,ãÕÑÇÊå,Misrata,
+mantika,LY0215,ÒæÇÑÉ,Zwara,
+mantika,LY0216,ÇáÌÈá ÇáÛÑÈí,Al Jabal Al Gharbi,
+mantika,LY0317,ÇáÌİÑÉ,Aljufra,
+mantika,LY0318,æÇÏì ÇáÔÇØÆ,Wadi Ashshati,
+mantika,LY0319,ÓÈåÇ,Sebha,
+mantika,LY0320,ÇæÈÇÑí,Ubari,
+mantika,LY0321,ÛÇÊ,Ghat,
+mantika,LY0322,ãÑÒŞ,Murzuq,
+baladiya,LY010101,Çã ÇáÑÒã,Umm arrazam,LY0101
+baladiya,LY010102,ÏÑäÉ,Derna,LY0101
+baladiya,LY010103,ÇáŞÈÉ,Alqubba,LY0101
+baladiya,LY010104,ÇáŞíŞÈ,Alqayqab,LY0101
+baladiya,LY010105,ÇáÃÈÑŞ,Labriq,LY0101
+baladiya,LY010201,ÌÑÏÓ ÇáÚÈíÏ,Jardas Alabeed,LY0102
+baladiya,LY010202,ÇáãÑÌ,Almarj,LY0102
+baladiya,LY010203,ÇáÓÇÍá,Assahel,LY0102
+baladiya,LY010301,ÇáÃÈíÇÑ,Alabyar,LY0103
+baladiya,LY010302,ÊæßÑÉ,Toukra,LY0103
+baladiya,LY010303,ÓáæŞ,Suloug,LY0103
+baladiya,LY010304,ÈäÛÇÒí,Benghazi,LY0103
+baladiya,LY010305,ŞãíäÓ,Gemienis,LY0103
+baladiya,LY010401,ÇãÓÇÚÏ,Emsaed,LY0104
+baladiya,LY010402,ÈíÑ ÇáÃÔåÈ,Bir Alashhab,LY0104
+baladiya,LY010403,ØÈÑŞ,Tobruk,LY0104
+baladiya,LY010501,ÅÌÎÑÉ,Ejkherra,LY0105
+baladiya,LY010502,ÌÇáæ,Jalu,LY0105
+baladiya,LY010503,ÃæÌáÉ,Aujala,LY0105
+baladiya,LY010504,ÇÌÏÇÈíÇ,Ejdabia,LY0105
+baladiya,LY010505,ãÑÇÏÉ,Marada,LY0105
+baladiya,LY010506,ÇáÈÑíŞÉ,Albrayga,LY0105
+baladiya,LY010601,ÔÍÇÊ,Shahhat,LY0106
+baladiya,LY010602,ÇáÈíÖÇÁ,Albayda,LY0106
+baladiya,LY010701,ÇáßİÑÉ,Alkufra,LY0107
+baladiya,LY010702,ÊÇÒÑÈæ,Tazirbu,LY0107
+baladiya,LY020801,ÎáíÌ ÇáÓÏÑÉ,Khaleej Assidra,LY0208
+baladiya,LY020802,åÑÇæÉ,Hrawa,LY0208
+baladiya,LY020803,ÓÑÊ,Sirt,LY0208
+baladiya,LY020901,ÛÏÇãÓ,Ghadamis,LY0209
+baladiya,LY020902,ÇáÍÑÇÈÉ,Alharaba,LY0209
+baladiya,LY020903,ßÇÈÇæ,Kabaw,LY0209
+baladiya,LY020904,ÇáÍæÇãÏ,Alhawamid,LY0209
+baladiya,LY020905,äÇáæÊ,Nalut,LY0209
+baladiya,LY020906,æÇÒä,Wazin,LY0209
+baladiya,LY020907,ÏÑÌ,Daraj,LY0209
+baladiya,LY020908,ÈÇØä ÇáÌÈá,Baten Aljabal,LY0209
+baladiya,LY021001,ÇáÎãÓ,Alkhums,LY0210
+baladiya,LY021002,ãÓáÇÊÉ,Msallata,LY0210
+baladiya,LY021003,ŞÕÑ ÇáÃÎíÇÑ,Qasr  Akhyar,LY0210
+baladiya,LY021004,ÇáŞÑå Èæáí,Garabolli,LY0210
+baladiya,LY021005,ÊÑåæäÉ,Tarhuna,LY0210
+baladiya,LY021101,ÓæŞ ÇáÌãÚÉ,Suq Aljumaa,LY0211
+baladiya,LY021102,ÊÇÌæÑÇÁ,Tajoura,LY0211
+baladiya,LY021103,Úíä ÒÇÑÉ,Ain Zara,LY0211
+baladiya,LY021104,ØÑÇÈáÓ,Tripoli,LY0211
+baladiya,LY021105,ÇÈæÓáíã,Abusliem,LY0211
+baladiya,LY021106,Íí ÇáÃäÏáÓ,Hai Alandalus,LY0211
+baladiya,LY021201,ÓíÏí ÇáÓÇíÍ,Sidi Assayeh,LY0212
+baladiya,LY021202,ÓæŞ ÇáÎãíÓ,Suq Alkhamees,LY0212
+baladiya,LY021203,ŞÕÑ Èä ÛÔíÑ,Qasr Bin Ghasheer,LY0212
+baladiya,LY021204,ÇáÓÈíÚÉ,Espeaa,LY0212
+baladiya,LY021205,ÓæÇäí Èä ÂÏã,Swani Bin Adam,LY0212
+baladiya,LY021206,ÌäÒæÑ,Janzour,LY0212
+baladiya,LY021207,ÇáÚÒíÒíÉ,Al Aziziya,LY0212
+baladiya,LY021208,ÇáãÇíÉ,Al Maya,LY0212
+baladiya,LY021209,ÇáÒåÑÇÁ,Azzahra,LY0212
+baladiya,LY021301,ÇáÒÇæíÉ,Azzawya,LY0213
+baladiya,LY021302,ÕÑãÇä,Surman,LY0213
+baladiya,LY021303,ÛÑÈ ÇáÒÇæíÉ,Gharb Azzawya,LY0213
+baladiya,LY021304,ÇáÒÇæíÉ ÌäæÈ,Janoub Azzawya,LY0213
+baladiya,LY021401,ãÕÑÇÊÉ,Misrata,LY0214
+baladiya,LY021402,ÒáíÊä,Zliten,LY0214
+baladiya,LY021403,ÇÈæ ŞÑíä,Abu Qurayn,LY0214
+baladiya,LY021404,Èäí æáíÏ,Bani Waleed,LY0214
+baladiya,LY021501,ÇáÚÌíáÇÊ,Al Ajaylat,LY0215
+baladiya,LY021502,ÕÈÑÇÊÉ,Sabratha,LY0215
+baladiya,LY021503,ÒæÇÑÉ,Zwara,LY0215
+baladiya,LY021504,ÇáÌãíá,Aljmail,LY0215
+baladiya,LY021505,ÑŞÏÇáíä,Rigdaleen,LY0215
+baladiya,LY021506,ÒáØä,Ziltun,LY0215
+baladiya,LY021601,äÓãÉ,"Nesma
+",LY0216
+baladiya,LY021602,ÇáÒäÊÇä,Azzintan,LY0216
+baladiya,LY021603,ÇáÃÕÇÈÚÉ,Alasabaa,LY0216
+baladiya,LY021604,ÇáŞáÚÉ,Al Qalaa,LY0216
+baladiya,LY021605,íİÑä,Yefren,LY0216
+baladiya,LY021606,ÛÑíÇä,Ghiryan,LY0216
+baladiya,LY021607,ßßáÉ,Kikkla,LY0216
+baladiya,LY021608,ÇáÑÌÈÇä,Arrajban,LY0216
+baladiya,LY021609,ÌÇÏæ,Jadu,LY0216
+baladiya,LY021610,ÇáÑÍíÈÇÊ,Arrhaibat,LY0216
+baladiya,LY021611,ÇáÑíÇíäÉ,Arrayayna,LY0216
+baladiya,LY021612,ÇáÔŞíŞÉ,Ashshgega,LY0216
+baladiya,LY021613,ÇáÔæíÑíİ,Ashshwayrif,LY0216
+baladiya,LY021614,ÙÇåÑ ÇáÌÈá,Thaher Aljabal,LY0216
+baladiya,LY031701,ÇáÌİÑÉ,Aljufra,LY0317
+baladiya,LY031801,ÈÑÇß ÇáÔÇØÆ,Brak,LY0318
+baladiya,LY031802,ÅÏÑí ÇáÔÇØÆ,Edri,LY0318
+baladiya,LY031803,ÇáŞÑÖÉ ÇáÔÇØÆ,Algurdha Ashshati,LY0318
+baladiya,LY031901,ÓÈåÇ,Sebha,LY0319
+baladiya,LY031902,ÇáÈæÇäíÓ,Albawanees,LY0319
+baladiya,LY032001,ÈäÊ ÈíÉ,Bint Bayya,LY0320
+baladiya,LY032002,ÇáÛÑíİÉ,Alghrayfa,LY0320
+baladiya,LY032003,ÃæÈÇÑí,Ubari,LY0320
+baladiya,LY032101,ÛÇÊ,Ghat,LY0321
+baladiya,LY032201,ÇáÔÑŞíÉ,Alsharguiya,LY0322
+baladiya,LY032202,ÇáŞØÑæä,Algatroun,LY0322
+baladiya,LY032203,ÊÑÇÛä,Taraghin,LY0322
+baladiya,LY032204,ãÑÒŞ,Murzuq,LY0322
+baladiya,LY032205,æÇÏí ÚÊÈÉ,Wadi Etba,LY0322
+supplier_flour_type,subsidised,ãÏÚæã,Subsidised,
+supplier_flour_type,unsubsidised,ÛíÑ ãÏÚæã,Unsubsidised,
+supplier_flour_type,other,ÛíÑ Ğáß (íÑÌì ÇáÊÍÏíÏ),Other (please specify),
+supplier_flour_type,dk,? íÚÑİ,Don't know,
+supplier_flour_type,dwta, íİÖá ÚÏã ÇáÅÌÇÈÉ,Prefer not to answer,
+how_affected,strongly_affected,ÊÃËÑÊ ÈÔÏÉ,Strongly affected,
+how_affected,moderately_affected, ÊÃËÑÊ ÈÔßá ãÚÊÏá ,Moderately affected,
+how_affected,mildly_affected, ÊÃËÑÊ ÈÔßá Øİíİ,Mildly affected,
+how_affected,not_affected, áã ÊÊÃËÑ Úáì ÇáÅØáÇŞ,Not affected at all,
+how_affected,other, ÛíÑ Ğáß (íÑÌì ÇáÊÍÏíÏ),Other (please specify),
+how_affected,dwta, íİÖá ÚÏã ÇáÅÌÇÈÉ,Prefer not to answer,
+how_affected_comparaison,much_strongly,ÃŞæì ãä Ğáß ÈßËíÑ,Much more strongly,
+how_affected_comparaison,bit_more_strongly,ÃßËÑ ãä Ğáß ÈŞáíá,A bit more strongly,
+how_affected_comparaison,same_asother,ÊŞÑíÈÇğ ÈäİÓ ÏÑÌÉ ÇáãäÇØŞ ÇáÃÎÑì,About the same as other areas,
+how_affected_comparaison,bit_more_weakly,ÃÖÚİ ãä Ğáß ŞáíáÇğ,A bit more weakly,
+how_affected_comparaison,much_weakly, ÃßËÑ ÖÚİÇğ ÈßËíÑ,Much more weakly,
+how_affected_comparaison,other,ÛíÑ Ğáß (íÑÌì ÇáÊÍÏíÏ),Other (please specify),
+how_affected_comparaison,dk,? íÚÑİ,Don't know,
+how_affected_comparaison,dwta, íİÖá ÚÏã ÇáÅÌÇÈÉ,Prefer not to answer,
+neighborhood,neighborhood_1, ÃÈæ ÕÑÉ,Abou Sorra ,
+neighborhood,neighborhood_2, ÃÈæ ÚíÓì,Abu Issa ,
+neighborhood,neighborhood_3, ÇÈæÛáÇÔÉ,Abou Ghelasha ,
+neighborhood,neighborhood_4, ÇáÇÓÊËãÇÑ,Al-Istithmar ,
+neighborhood,neighborhood_5, ÇáÇäŞÇÑ,Al-Anqar ,
+neighborhood,neighborhood_6, ÇáÈÑäÇæí,Albarnawi ,
+neighborhood,neighborhood_7, ÇáÍÇÌ ãÍãÏ,Alhaj Mohamed ,
+neighborhood,neighborhood_8, ÇáÍÇÌíÉ,Alhajbeya ,
+neighborhood,neighborhood_9, ÇáÍÇÑÉ,Alharra ,
+neighborhood,neighborhood_10, ÇáÍÑÔÉ,Al-Harsha ,
+neighborhood,neighborhood_11, ÇáÎÏÇÑæÉ,Al-Khedarwa ,
+neighborhood,neighborhood_12, ÇáÎäÇİíÓ,Alkhanafis ,
+neighborhood,neighborhood_13, ÇáÑÒÇŞÉ,Arrzaka ,
+neighborhood,neighborhood_14, ÇáÑãÍå,Arrimha ,
+neighborhood,neighborhood_15, ÇáÑæíÓ,Arruis ,
+neighborhood,neighborhood_16, ÇáÒåíæí,Azzhiwi ,
+neighborhood,neighborhood_17, ÇáÓãÇÑíÇÊ,Assmariyat ,
+neighborhood,neighborhood_18, ÇáÓíÏÉ ÒíäÈ,Sayda Zeinab ,
+neighborhood,neighborhood_19, ÇáÔÇÆÈ Úíäå,Achaib Aynouh ,
+neighborhood,neighborhood_20, ÇáÔÑİÇÁ,Achourafaa ,
+neighborhood,neighborhood_21, ÇáÕÇÈÑíÉ,Assabreya ,
+neighborhood,neighborhood_22, ÇáÖãÇä,Adhaman ,
+neighborhood,neighborhood_23, ÇáÚíÇÏÉ ÇáãÌãÚå,Al-Iyada Al-Mujamaa ,
+neighborhood,neighborhood_24, ÇáİÇÓí,Alfassi ,
+neighborhood,neighborhood_25, ÇáŞÑÖÇÈíÉ,Al-kradhbiya ,
+neighborhood,neighborhood_26, ÇáŞáİÇØ,Akalfat ,
+neighborhood,neighborhood_27, ÇáãÑÇíãå,Al-Mrayma ,
+neighborhood,neighborhood_28, ÇáãÓÊÔİì ÇáÊÚáíãí,The teaching Hospital ,
+neighborhood,neighborhood_29, ÇáãØÑÏ,Almotrad ,
+neighborhood,neighborhood_30, ÇáãäŞÚ,Amankaa ,
+neighborhood,neighborhood_31, ÇáãíÏÇä,Almidan ,
+neighborhood,neighborhood_32, ÇáæáÇäí,Alwalani ,
+neighborhood,neighborhood_33, ÃæáÇÏ ÌÑÈæÚ,Awlad Jarboo ,
+neighborhood,neighborhood_34, ÃæáÇÏ ÕŞÑ,Awlad Sakr ,
+neighborhood,neighborhood_35, ÃæáÇÏ ÕæáÉ,Awlad Sula ,
+neighborhood,neighborhood_36, ÃæáÇÏ ÚÌíäÉ,Awlad Ajina ,
+neighborhood,neighborhood_37, ÈÇáÈí,Balbi ,
+neighborhood,neighborhood_38, ÈÍÑ ÇáÓãÇÍ,Bahr Assamah ,
+neighborhood,neighborhood_39, Èä ÚÕãÇä,Ben Osman ,
+neighborhood,neighborhood_40, Èä íæÓİ,Ben Youssef ,
+neighborhood,neighborhood_41, ÈÆÑ ÇáÑÊíãÇÊ,Bir Arrtimat ,
+neighborhood,neighborhood_42, ÈÆÑ Èä ÍÓíä,Bir Bni Hsin ,
+neighborhood,neighborhood_43, ÈÆÑ ÊÑİÇÓ,Bir Terfas ,
+neighborhood,neighborhood_44, ÈÆÑ ãÚãÑ,Bir Maamer ,
+neighborhood,neighborhood_45, ÌäæÈ ÇáÍÑÔÉ,South of Al-Harsha ,
+neighborhood,neighborhood_46, ÌæÏÇíã,Joudaim ,
+neighborhood,neighborhood_47, ÏíáÉ,Dila ,
+neighborhood,neighborhood_48, ÓÈÇä,Saban ,
+neighborhood,neighborhood_49, ÓæŞ ÇáÎÖÑÇ ,Souk Al-khoudhra ,
+neighborhood,neighborhood_50, ÓæŞ ÇáÚÕÑ,Souk Alasr ,
+neighborhood,neighborhood_51, ÔÇÑÚ ÇáÌãáå,Street Al-jomla ,
+neighborhood,neighborhood_52, ÔÇÑÚ ÌãÇá ÚÈÏ ÇáäÇÕÑ,Street Jamal Abdul Nasser ,
+neighborhood,neighborhood_53, ÔÇÑÚ ÚãÑ ÇáãÎÊÇÑ,Street Omar Almokhta ,
+neighborhood,neighborhood_54, ÔÚÈíÉ ÇáãËáË,Shaabiyat Al-Mouthalath ,
+neighborhood,neighborhood_55, ÔÚÈíÉ Íí ÇáæÍÏå,Shaabiyat Hay Alwehda ,
+neighborhood,neighborhood_56, ÔÚÈíÉ åæíÓå,Shabiyat Huissa ,
+neighborhood,neighborhood_57, Öí ÇáåáÇá,Dhay Al-Helal ,
+neighborhood,neighborhood_58," ØÑíŞ ÇáÒåÑÇÁ , ÔåÏÇÁ ÇáÒÇæíÉ","Tariq Azzahra, Shohadaa Azzawya ",
+neighborhood,neighborhood_59, ÚÈÏ ÇáæÇÍÏ,Abd Al-Wahed ,
+neighborhood,neighborhood_60, ÚŞÈÉ Èä äÇİÚ,Uqba ibn Nafi,
+neighborhood,neighborhood_61, ŞãæÏÉ,Qamouda ,
+neighborhood,neighborhood_62, äÕÑÇÊ,Nasrat ,
+neighborhood,neighborhood_63,ÇáÚÑíæí,Al-Ariwi ,
+neighborhood,neighborhood_64,ÓæŞ ÇáÓÚí,Souk Alsai ,
+neighborhood,neighborhood_65,ÚæÒÉ,Ouza ,
+neighborhood,dwta,íİÖá ÚÏã ÇáÅÌÇÈÉ,Prefer not to answer,
+dcu,dcu1,ÊÌãÚ ÇáÃÍíÇÁ 1,DCU1,
+dcu,dcu2,ÊÌãÚ ÇáÃÍíÇÁ 2,DCU2,
+dcu,dcu3,ÊÌãÚ ÇáÃÍíÇÁ 3,DCU3,
+dcu,dcu4,ÊÌãÚ ÇáÃÍíÇÁ 4,DCU4,
+dcu,dcu5,ÊÌãÚ ÇáÃÍíÇÁ 5,DCU5,
+dcu,dcu6,ÊÌãÚ ÇáÃÍíÇÁ 6,DCU6,
+dcu,dcu7,ÊÌãÚ ÇáÃÍíÇÁ 7,DCU7,
+dcu,dcu8,ÊÌãÚ ÇáÃÍíÇÁ 8,DCU8,
+neighborhood,dk,áÇ íÚÑİ,Don't know,
+neighborhood,other,ÛíÑ Ğáß (íÑÌì ÇáÊÍÏíÏ),Other (please specify),
