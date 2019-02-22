@@ -16,3 +16,6 @@ xlsform_to_html(x, dir, filename)
 \description{
 Map results to an output template
 }
+\examples{
+xlsform_to_html(list_parameters, "./output", "questionnaire.html")
+}

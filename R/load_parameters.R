@@ -1,4 +1,4 @@
-#' initialize a list of parameters
+#' Create a list of parameters (inputs)
 #'
 #' @param title Name of your questionnaire as character.
 #' @param survey.file Path to your questionnaire csv file as character.
@@ -9,13 +9,13 @@
 #' @param special.characters If the text contains non latin characters, specify the language used.
 #' @return list of 4 objects.
 #' @examples
-#' initialize_parameters("Area Based Assessment 2019", "questionnaire_file.csv", "choices_file.csv", "label::Arabic",
+#' load_parameters("Area Based Assessment 2019", "questionnaire_file.csv", "choices_file.csv", "label::Arabic",
 #' "label::Arabic", TRUE, "arabic")
 #'
-#' initialize_parameters("JMMI January round", "questionnaire_file.csv", "choices_file.csv", "label",
+#' load_parameters("JMMI January round", "questionnaire_file.csv", "choices_file.csv", "label",
 #'"label", FALSE, "")
 #'@export
-initialize_parameters <-function(title,survey.file,choices.file,choices.label,survey.label,right.to.left,special.characters){
+load_parameters <-function(title,survey.file,choices.file,choices.label,survey.label,right.to.left,special.characters){
 
     # load inputs
     if(!file.exists(survey.file)){
