@@ -35,11 +35,11 @@ Place your survey and choices csv files under the file `input`. Please note that
   
   
 **Example 1**  
-`list_parameters <- load_parameters("Area Based Assessment 2019", "questionnaire_file.csv", "choices_file.csv", "label::Arabic",label::Arabic", TRUE, "arabic")`  
+`list_parameters <- load_parameters("Area Based Assessment 2019", "./input/questionnaire_file.csv", "./input/choices_file.csv", "label::Arabic",label::Arabic", TRUE, "arabic")`  
   
   
 **Example 2**  
-`list_parameters <- load_parameters("JMMI January round", "questionnaire_file.csv", "choices_file.csv", "label","label", FALSE, "")`    
+`list_parameters <- load_parameters("JMMI January round", "./input/questionnaire_file.csv", "./input/choices_file.csv", "label","label", FALSE, "")`    
 
 2. **Run the function xlsfrom_to_html()**  
 `xlsfrom_to_html(x, dir, filename)`  
