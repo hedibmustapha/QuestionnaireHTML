@@ -1,6 +1,7 @@
 # QuestionnaireHTML
 ## Download and load the QuestionnaireHTML library
-* To download the library from Guithub:
+* To download the library from Guithub:  
+
 `remotes::install_github("hedibmustapha/QuestionnaireHTML",build_opts = c())`  
 * To load the library:  
 `library("QuestionnaireHTML")`
