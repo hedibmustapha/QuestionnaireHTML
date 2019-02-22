@@ -23,29 +23,27 @@ Place your survey and choices csv files under the file `input`. Please note that
 |   |   || |
 
 ## Quick start
-1. **Load your parameters with the function load_parameters()**  
-`load_parameters(title,survey.file,choices.file,choices.label,survey.label,right.to.left,special.characters)`  
-- `title` Name of your questionnaire as character.  
-- `survey.file` Path to your questionnaire csv file as character.  
-- `choices.file` Path to your choices csv file as character.  
+**Run the function questionnaire_to_html()**  
+
+`questionnaire_to_html(survey.file, choices.file, choices.label, survey.label, output.dir = "./",output.filename = "questionnaire.html", title = "", right.to.left = FALSE, special.characters ="")`  
+
+- `survey.file`   Path to your questionnaire csv file as character.  
+- `choices.file`  Path to your choices csv file as character.  
 - `choices.label` Choices label column to be used as character.  
 - `survey.label` questionnaire label column to be used as character.
+- `output.dir`the directory in which to save the output file (absolute path or relative to current working directory).
+- `output.filename` the name of the file. must end in '.html'   
+- `title` Name of your questionnaire as character.  
 - `right.to.left` Type of the questionnaire writing system (TRUE/FALSE).
 - `special.characters` If the text contains non latin characters, specify the language used.  
+
   
   
 **Example 1**  
-`list_parameters <- load_parameters("Area Based Assessment 2019", "./input/questionnaire_file.csv", "./input/choices_file.csv", "label::Arabic",label::Arabic", TRUE, "arabic")`  
+questionnaire_to_html("./input/questionnaire_file.csv", "./input/choices_file.csv", "label::Arabic",
+"label::Arabic", "./output", "survey.html", "Area Based Assessment 2019", TRUE, "arabic")
   
   
 **Example 2**  
-`list_parameters <- load_parameters("JMMI January round", "./input/questionnaire_file.csv", "./input/choices_file.csv", "label","label", FALSE, "")`    
-
-2. **Run the function xlsfrom_to_html()**  
-`xlsfrom_to_html(x, dir, filename)`  
-- `x` list of parameters (created with initialize_parameters)  
-- `dir` the directory in which to save the output file (absolute path or relative to current working directory)  
-- `filename` the name of the file. must end in ".html"  
-  
-**Example**:  
-`xlsform_to_html(list_parameters, "./output", "questionnaire.html")`
+questionnaire_to_html("./input/questionnaire_file.csv", "./input/choices_file.csv", "label",
+"label", "./", "questionnaire.html", "Area Based Assessment 2019", FALSE, "")   
