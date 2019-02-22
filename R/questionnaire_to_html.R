@@ -1,21 +1,23 @@
-#' Create a list of parameters (inputs)
+#' Convert an XLSform questionnaire to HTML
 #'
-#' @param title Name of your questionnaire as character.
 #' @param survey.file Path to your questionnaire csv file as character.
 #' @param choices.file Path to your choices csv file as character.
 #' @param choices.label Choices label column to be used as character.
 #' @param survey.label questionnaire label column to be used as character.
+#' @param output.dir the directory in which to save the output file (absolute path or relative to current working directory)
+#' @param output.filename the name of the file. must end in '.html'
+#' @param title Name of your questionnaire as character.
 #' @param right.to.left Type of the questionnaire writing system (TRUE/FALSE).
 #' @param special.characters If the text contains non latin characters, specify the language used.
-#' @return list of 4 objects.
 #' @examples
-#' load_parameters("Area Based Assessment 2019", "./input/questionnaire_file.csv", "./input/choices_file.csv", "label::Arabic",
-#' "label::Arabic", TRUE, "arabic")
+#' questionnaire_to_html("./input/questionnaire_file.csv", "./input/choices_file.csv", "label::Arabic",
+#' "label::Arabic", "./output", "survey.html", "Area Based Assessment 2019", TRUE, "arabic")
 #'
-#' load_parameters("JMMI January round", "./input/questionnaire_file.csv", "./input/choices_file.csv", "label",
-#'"label", FALSE, "")
-#'@export
-load_parameters <-function(title,survey.file,choices.file,choices.label,survey.label,right.to.left,special.characters){
+#' questionnaire_to_html("./input/questionnaire_file.csv", "./input/choices_file.csv", "label",
+#' "label", "./", "questionnaire.html", "Area Based Assessment 2019", FALSE, "")
+#' @export
+questionnaire_to_html <-function(survey.file, choices.file, choices.label, survey.label, output.dir = "./",
+                                 output.filename = "questionnaire.html", title = "", right.to.left = FALSE, special.characters =""){
 
     # load inputs
     if(!file.exists(survey.file)){
@@ -40,11 +42,14 @@ load_parameters <-function(title,survey.file,choices.file,choices.label,survey.l
                                          choices.label.column.to.use = choices.label
     )
 
-  return(list(q=q,
-         survey=survey,
-         choices=choices,
-         right.to.left=right.to.left,
-         title=title))
+    inputs <- list(q = q,
+                   survey = survey,
+                   choices = choices,
+                   right.to.left = right.to.left,
+                   title=title)
+
+
+    render_questionnaire_rmd(inputs, dir = output.dir, filename = output.filename)
 
 }
 
