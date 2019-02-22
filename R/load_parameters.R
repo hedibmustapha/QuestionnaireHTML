@@ -9,10 +9,10 @@
 #' @param special.characters If the text contains non latin characters, specify the language used.
 #' @return list of 4 objects.
 #' @examples
-#' load_parameters("Area Based Assessment 2019", "questionnaire_file.csv", "choices_file.csv", "label::Arabic",
+#' load_parameters("Area Based Assessment 2019", "./input/questionnaire_file.csv", "./input/choices_file.csv", "label::Arabic",
 #' "label::Arabic", TRUE, "arabic")
 #'
-#' load_parameters("JMMI January round", "questionnaire_file.csv", "choices_file.csv", "label",
+#' load_parameters("JMMI January round", "./input/questionnaire_file.csv", "./input/choices_file.csv", "label",
 #'"label", FALSE, "")
 #'@export
 load_parameters <-function(title,survey.file,choices.file,choices.label,survey.label,right.to.left,special.characters){

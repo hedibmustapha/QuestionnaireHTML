@@ -29,9 +29,9 @@ list of 4 objects.
 Create a list of parameters (inputs)
 }
 \examples{
-load_parameters("Area Based Assessment 2019", "questionnaire_file.csv", "choices_file.csv", "label::Arabic",
+load_parameters("Area Based Assessment 2019", "./input/questionnaire_file.csv", "./input/choices_file.csv", "label::Arabic",
 "label::Arabic", TRUE, "arabic")
 
-load_parameters("JMMI January round", "questionnaire_file.csv", "choices_file.csv", "label",
+load_parameters("JMMI January round", "./input/questionnaire_file.csv", "./input/choices_file.csv", "label",
 "label", FALSE, "")
 }

@@ -2,8 +2,7 @@
 title: "Quickstart"
 author: "Hedi Ben Mustapha"
 date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
-css: style.css
+output: rmarkdown::html_vignette 
 vignette: >
   %\VignetteIndexEntry{Vignette Title}
   %\VignetteEngine{knitr::rmarkdown}
@@ -41,7 +40,9 @@ Place your survey and choices csv files under the file `input`. Please note that
 
 ## Quick start
 1. **Load your parameters with the function load_parameters()**  
+
 `load_parameters(title,survey.file,choices.file,choices.label,survey.label,right.to.left,special.characters)`  
+
 - `title` Name of your questionnaire as character.  
 - `survey.file` Path to your questionnaire csv file as character.  
 - `choices.file` Path to your choices csv file as character.  
@@ -52,18 +53,21 @@ Place your survey and choices csv files under the file `input`. Please note that
   
   
 **Example 1**  
-`list_parameters <- load_parameters("Area Based Assessment 2019", "questionnaire_file.csv", "choices_file.csv", "label::Arabic",label::Arabic", TRUE, "arabic")`  
+list_parameters <- load_parameters("Area Based Assessment 2019", "./input/aba_questionnaire.csv", "./input/aba_choices.csv", "label::Arabic",label::Arabic", TRUE, "arabic")
   
   
 **Example 2**  
-`list_parameters <- load_parameters("JMMI January round", "questionnaire_file.csv", "choices_file.csv", "label","label", FALSE, "")`    
+list_parameters <- load_parameters("JMMI January round", "./input/aba_questionnaire.csv", "./input/aba_choices.csv", "label","label", FALSE, "")   
 
 2. **Run the function xlsfrom_to_html()**  
-`xlsfrom_to_html(x, dir, filename)`  
+
+`xlsfrom_to_html(x, dir, filename)`   
+
 - `x` list of parameters (created with initialize_parameters)  
 - `dir` the directory in which to save the output file (absolute path or relative to current working directory)  
 - `filename` the name of the file. must end in ".html"  
   
-**Example**:  
-`xlsform_to_html(list_parameters, "./output", "questionnaire.html")`
+**Example**:   
+
+xlsform_to_html(list_parameters, "./output", "questionnaire.html")
 
