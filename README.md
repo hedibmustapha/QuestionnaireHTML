@@ -42,7 +42,7 @@ Place your survey and choices csv files under the file `input`. Please note that
   
 **Example 1**  
 questionnaire_to_html("./input/questionnaire_file.csv", "./input/choices_file.csv", "label::Arabic",
-"label::Arabic", "./output", "survey.html", "Area Based Assessment 2019", TRUE, "arabic")
+"label::Arabic", "constraint_message::Arabic", "./output", "survey.html", "Area Based Assessment 2019", TRUE, "arabic")
   
   
 **Example 2**  
