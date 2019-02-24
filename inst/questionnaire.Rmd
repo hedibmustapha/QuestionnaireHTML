@@ -39,14 +39,16 @@ for(i in 1:nrow(x$survey)){
     cat("**",x$q$question_get_question_label(x$survey[i,"name"]),"**", "  (",question_type[1], ")", sep = "")
     cat("\n")
     cat("\n")
-    cat(as.character(x$choices[x$choices["list_name"]==question_type[2],"label"]), " ",sep = "  [...]  ")
-    cat("\n")
-    cat("\n")
     if(x$survey[i,"constraint.message"] !="" && "constraint.message" %in% names(x$survey)){
-    cat(" ","**",as.character(x$survey[i, "constraint.message"]),"**", sep = "")
+    cat("**","(",as.character(x$survey[i, "constraint.message"]),") ","**", sep = "")
     }
+    cat("\n")
+    cat("\n")
+    cat(as.character(x$choices[x$choices["list_name"]==question_type[2],"label"]), " ",sep = "  [...]  ")
+    
+    
   } else{
-    if(x$survey[i,1] %in% c("note", "begin group", "begin_group") && x$survey[i,"label"] !=""){
+    if(gsub(" ","",as.character(x$survey[i,1])) %in% c("geopoint","note", "begingroup", "begin_group") && x$survey[i,"label"] !=""){
       cat("\n")
       cat("\n")
       cat("**",x$q$question_get_question_label(x$survey[i,"name"]), "**", sep = "")
@@ -57,10 +59,14 @@ for(i in 1:nrow(x$survey)){
       cat("\n")
       cat("\n")
     cat("**",x$q$question_get_question_label(x$survey[i,"name"]), "**", "   (",as.character(x$survey[i,"type"]),")", sep = "")
-    cat("\n\n ...............................................................................    ")
+    cat("\n")
+    cat("\n")
     if(x$survey[i,"constraint.message"] !="" && "constraint.message" %in% names(x$survey)){
-      cat(" ","**",as.character(x$survey[i, "constraint.message"]),"**", sep = "")
+  
+      cat("**","(",as.character(x$survey[i, "constraint.message"]),") ","**", sep = "")
     }
+    cat("...............................................................................")
+    
     
     }}
   }
