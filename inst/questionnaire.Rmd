@@ -38,7 +38,7 @@ for(i in 1:nrow(x$survey)){
     cat("**",x$q$question_get_question_label(x$survey[i,"name"]),"**", "  (",question_type[1], ")", sep = "")
     cat("\n")
     cat("\n")
-    cat(as.character(x$choices[x$choiceschoices[["list_name"]]==question_type[2],"label"]), " ",sep = "  [...]  ")
+    cat(as.character(x$choices[x$choices["list_name"]==question_type[2],"label"]), " ",sep = "  [...]  ")
     cat("\n")
     cat("\n")
   } else{
@@ -49,7 +49,7 @@ for(i in 1:nrow(x$survey)){
     } else{
     if(x$survey[i,"label"] !=""){
     cat("**",x$q$question_get_question_label(x$survey[i,"name"]), "**", "   (",as.character(x$survey[i,"type"]),")", sep = "")
-    cat("\n\n....................................\n\n")
+    cat("\n\n........................................................................\n\n")
     }}
   }
 }
