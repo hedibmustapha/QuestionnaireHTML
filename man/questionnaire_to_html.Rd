@@ -5,7 +5,7 @@
 \title{Convert an XLSform questionnaire to HTML}
 \usage{
 questionnaire_to_html(survey.file, choices.file, choices.label,
-  survey.label, output.dir = "./",
+  survey.label, constraint.label = "", output.dir = "./",
   output.filename = "questionnaire.html", title = "",
   right.to.left = FALSE, special.characters = "")
 }
@@ -17,6 +17,8 @@ questionnaire_to_html(survey.file, choices.file, choices.label,
 \item{choices.label}{Choices label column to be used as character.}
 
 \item{survey.label}{questionnaire label column to be used as character.}
+
+\item{constraint.label}{sidenote about any constraint related to a question}
 
 \item{output.dir}{the directory in which to save the output file (absolute path or relative to current working directory)}
 

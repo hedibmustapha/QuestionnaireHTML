@@ -4,6 +4,7 @@
 #' @param choices.file Path to your choices csv file as character.
 #' @param choices.label Choices label column to be used as character.
 #' @param survey.label questionnaire label column to be used as character.
+#' @param constraint.label sidenote about any constraint related to a question
 #' @param output.dir the directory in which to save the output file (absolute path or relative to current working directory)
 #' @param output.filename the name of the file. must end in '.html'
 #' @param title Name of your questionnaire as character.
@@ -16,7 +17,7 @@
 #' questionnaire_to_html("./input/questionnaire_file.csv", "./input/choices_file.csv", "label",
 #' "label", "./", "questionnaire.html", "Area Based Assessment 2019", FALSE, "")
 #' @export
-questionnaire_to_html <-function(survey.file, choices.file, choices.label, survey.label, output.dir = "./",
+questionnaire_to_html <-function(survey.file, choices.file, choices.label, survey.label, constraint.label="", output.dir = "./",
                                  output.filename = "questionnaire.html", title = "", right.to.left = FALSE, special.characters =""){
 
     # load inputs
@@ -34,6 +35,9 @@ questionnaire_to_html <-function(survey.file, choices.file, choices.label, surve
     choices <- read.csv(choices.file)
 
     names(survey) <- sanitise_survey_label(survey.label,names(survey))
+    if(constraint.label!="") {
+      names(survey) <- sanitise_constraint_message_label(constraint.label,names(survey))
+    }
     names(choices) <- sanitise_choices_label_listname(choices.label,names(choices))
 
 
