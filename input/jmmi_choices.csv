@@ -1,0 +1,263 @@
+list_name,name,label::English,region,district,label::Arabic
+Region,LBY01,East,,,«·‘—ﬁ
+Region,LBY02,West,,,«·€—»
+Region,LBY03,South,,,«·Ã‰Ê»
+District,LBY0101,Derna,LBY01,,œ—‰Â
+District,LBY0102,Al-Marj,LBY01,,«·„—Ã
+District,LBY0103,Benghazi,LBY01,,"»‰€«“Ì
+"
+District,LBY0104,Tobruk,LBY01,,ÿ»—ﬁ
+District,LBY0105,Ajdabiya,LBY01,,"«Ãœ«»Ì«
+"
+District,LBY0106,Al Jabal Al Akhdar,LBY01,,"«·Ã»· «·«Œ÷—
+
+"
+District,LBY0107,Al-Kufrah,LBY01,,"«·ﬂ›—…
+
+"
+District,LBY0201,Sirte,LBY02,,"”— 
+
+"
+District,LBY0202,Nalut,LBY02,,"‰«·Ê 
+
+"
+District,LBY0203,Almargeb,LBY02,,"«·„—ﬁ»
+
+"
+District,LBY0204,Tripoli,LBY02,,"ÿ—«»·”
+
+"
+District,LBY0205,Aljfara,LBY02,,«·Ã›«—…
+District,LBY0206,Azzawya,LBY02,,«·“«ÊÌ…
+District,LBY0207,Misrata,LBY02,,„’—« Â
+District,LBY0208,Zwara,LBY02,,“Ê«—…
+District,LBY0209,Al Jabal Al Gharbi,LBY02,,«·Ã»· «·€—»Ì
+District,LBY0301,Murzuq,LBY03,,„—“ﬁ
+District,LBY0302,Ghat,LBY03,,€« 
+District,LBY0303,Ubari,LBY03,,«Ê»«—Ì
+District,LBY0304,Al-Jufrah,LBY03,,«·Ã›—…
+District,LBY0305,Wadi Ashshati,LBY03,,Ê«œÏ «·‘«ÿ∆
+District,LBY0306,Sebha,LBY03,,”»Â«
+Municipality,LBY010101,Umm arrazam,LBY01,LBY0101,«„ «·—“„
+Municipality,LBY010102,Derna,LBY01,LBY0101,œ—‰…
+Municipality,LBY010103,Alqubba,LBY01,LBY0101,«·ﬁ»…
+Municipality,LBY010104,Alqayqab,LBY01,LBY0101,«·ﬁÌﬁ»
+Municipality,LBY010105,Labriq,LBY01,LBY0101,«·√»—ﬁ
+Municipality,LBY010201,Jardas Alabeed,LBY01,LBY0102,Ã—œ” «·⁄»Ìœ
+Municipality,LBY010202,Al-Marj,LBY01,LBY0102,«·„—Ã
+Municipality,LBY010203,Assahel,LBY01,LBY0102,«·”«Õ·
+Municipality,LBY010301,Alabyar,LBY01,LBY0103,«·√»Ì«—
+Municipality,LBY010302,Toukra,LBY01,LBY0103, Êﬂ—…
+Municipality,LBY010303,Suloug,LBY01,LBY0103,”·Êﬁ
+Municipality,LBY010304,Benghazi,LBY01,LBY0103,»‰€«“Ì
+Municipality,LBY010305,Gemienis,LBY01,LBY0103,ﬁ„Ì‰”
+Municipality,LBY010401,Emsaed,LBY01,LBY0104,«„”«⁄œ
+Municipality,LBY010402,Bir Alashhab,LBY01,LBY0104,»Ì— «·√‘Â»
+Municipality,LBY010403,Tobruk,LBY01,LBY0104,ÿ»—ﬁ
+Municipality,LBY010501,Ejkherra,LBY01,LBY0105,≈ÃŒ—…
+Municipality,LBY010502,Jalu,LBY01,LBY0105,Ã«·Ê
+Municipality,LBY010503,Aujala,LBY01,LBY0105,√ÊÃ·…
+Municipality,LBY010504,Ajdabiya,LBY01,LBY0105,«Ãœ«»Ì«
+Municipality,LBY010505,Marada,LBY01,LBY0105,„—«œ…
+Municipality,LBY010506,Albrayga,LBY01,LBY0105,«·»—Ìﬁ…
+Municipality,LBY010601,Shahhat,LBY01,LBY0106,‘Õ« 
+Municipality,LBY010602,Al-Bayda,LBY01,LBY0106,«·»Ì÷«¡
+Municipality,LBY010701,Al-Kufrah,LBY01,LBY0107,«·ﬂ›—…
+Municipality,LBY010702,Tazirbu,LBY01,LBY0107, «“—»Ê
+Municipality,LBY020101,Khaleej Assidra,LBY02,LBY0201,Œ·ÌÃ «·”œ—…
+Municipality,LBY020102,Hrawa,LBY02,LBY0201,Â—«Ê…
+Municipality,LBY020103,Sirte,LBY02,LBY0201,”— 
+Municipality,LBY020201,Ghadamis,LBY02,LBY0202,€œ«„”
+Municipality,LBY020202,Alharaba,LBY02,LBY0202,«·Õ—«»…
+Municipality,LBY020203,Kabaw,LBY02,LBY0202,ﬂ«»«Ê
+Municipality,LBY020204,Alhawamid,LBY02,LBY0202,«·ÕÊ«„œ
+Municipality,LBY020205,Nalut,LBY02,LBY0202,‰«·Ê 
+Municipality,LBY020206,Wazin,LBY02,LBY0202,Ê«“‰
+Municipality,LBY020207,Daraj,LBY02,LBY0202,œ—Ã
+Municipality,LBY020208,Baten Aljabal,LBY02,LBY0202,»«ÿ‰ «·Ã»·
+Municipality,LBY020301,Al-Khums,LBY02,LBY0203,«·Œ„”
+Municipality,LBY020302,Msallata,LBY02,LBY0203,„”·« …
+Municipality,LBY020303,Qasr  Akhyar,LBY02,LBY0203,ﬁ’— «·√ŒÌ«—
+Municipality,LBY020304,Garabolli,LBY02,LBY0203,«·ﬁ—Â »Ê·Ì
+Municipality,LBY020305,Tarhuna,LBY02,LBY0203, —ÂÊ‰…
+Municipality,LBY020401,Suq Aljumaa,LBY02,LBY0204,”Êﬁ «·Ã„⁄…
+Municipality,LBY020402,Tajoura,LBY02,LBY0204, «ÃÊ—«¡
+Municipality,LBY020403,Ain Zara,LBY02,LBY0204,⁄Ì‰ “«—…
+Municipality,LBY020404,Tripoli Center,LBY02,LBY0204,ÿ—«»·” «·„—ﬂ“Ì…
+Municipality,LBY020405,Abusliem,LBY02,LBY0204,«»Ê”·Ì„
+Municipality,LBY020406,Hai Alandalus,LBY02,LBY0204,ÕÌ «·√‰œ·”
+Municipality,LBY020501,Sidi Assayeh,LBY02,LBY0205,”ÌœÌ «·”«ÌÕ
+Municipality,LBY020502,Suq Alkhamees,LBY02,LBY0205,”Êﬁ «·Œ„Ì”
+Municipality,LBY020503,Qasr Bin Ghasheer,LBY02,LBY0205,ﬁ’— »‰ €‘Ì—
+Municipality,LBY020504,Espeaa,LBY02,LBY0205,«·”»Ì⁄…
+Municipality,LBY020505,Swani Bin Adam,LBY02,LBY0205,”Ê«‰Ì »‰ ¬œ„
+Municipality,LBY020506,Janzour,LBY02,LBY0205,Ã‰“Ê—
+Municipality,LBY020507,Al-Aziziya,LBY02,LBY0205,«·⁄“Ì“Ì…
+Municipality,LBY020508,Al Maya,LBY02,LBY0205,«·„«Ì…
+Municipality,LBY020509,Azzahra,LBY02,LBY0205,«·“Â—«¡
+Municipality,LBY020601,Azzawya,LBY02,LBY0206,«·“«ÊÌ…
+Municipality,LBY020602,Surman,LBY02,LBY0206,’—„«‰
+Municipality,LBY020603,Gharb Azzawya,LBY02,LBY0206,€—» «·“«ÊÌ…
+Municipality,LBY020604,Janoub Azzawya,LBY02,LBY0206,«·“«ÊÌ… Ã‰Ê»
+Municipality,LBY020701,Misrata,LBY02,LBY0207,„’—« …
+Municipality,LBY020702,Zliten,LBY02,LBY0207,“·Ì ‰
+Municipality,LBY020703,Abu Qurayn,LBY02,LBY0207,«»Ê ﬁ—Ì‰
+Municipality,LBY020704,Bani Walid,LBY02,LBY0207,»‰Ì Ê·Ìœ
+Municipality,LBY020801,Al Ajaylat,LBY02,LBY0208,«·⁄ÃÌ·« 
+Municipality,LBY020802,Sabratha,LBY02,LBY0208,’»—« …
+Municipality,LBY020803,Zwara,LBY02,LBY0208,“Ê«—…
+Municipality,LBY020804,Aljmail,LBY02,LBY0208,«·Ã„Ì·
+Municipality,LBY020805,Rigdaleen,LBY02,LBY0208,—ﬁœ«·Ì‰
+Municipality,LBY020806,Ziltun,LBY02,LBY0208,“·ÿ‰
+Municipality,LBY020901,"Nesma
+
+",LBY02,LBY0209,‰”„…
+Municipality,LBY020902,Zintan,LBY02,LBY0209,«·“‰ «‰
+Municipality,LBY020903,Alasabaa,LBY02,LBY0209,«·√’«»⁄…
+Municipality,LBY020904,Al Qalaa,LBY02,LBY0209,«·ﬁ·⁄…
+Municipality,LBY020905,Yefren,LBY02,LBY0209,Ì›—‰
+Municipality,LBY020906,Gharyan,LBY02,LBY0209,€—Ì«‰
+Municipality,LBY020907,Kikkla,LBY02,LBY0209,ﬂﬂ·…
+Municipality,LBY020908,Arrajban,LBY02,LBY0209,«·—Ã»«‰
+Municipality,LBY020909,Jadu,LBY02,LBY0209,Ã«œÊ
+Municipality,LBY020910,Arrhaibat,LBY02,LBY0209,«·—ÕÌ»« 
+Municipality,LBY020911,Arrayayna,LBY02,LBY0209,«·—Ì«Ì‰…
+Municipality,LBY020912,Ashshgega,LBY02,LBY0209,«·‘ﬁÌﬁ…
+Municipality,LBY020913,Ashshwayrif,LBY02,LBY0209,«·‘ÊÌ—Ì›
+Municipality,LBY020914,Thaher Aljabal,LBY02,LBY0209,Ÿ«Â— «·Ã»·
+Municipality,LBY030101,Alsharguiya,LBY03,LBY0301,«·‘—ﬁÌ…
+Municipality,LBY030102,Al-Gatroun,LBY03,LBY0301,«·ﬁÿ—Ê‰
+Municipality,LBY030103,Taraghin,LBY03,LBY0301, —«€‰
+Municipality,LBY030104,Murzuq,LBY03,LBY0301,„—“ﬁ
+Municipality,LBY030105,Wadi Etba,LBY03,LBY0301,Ê«œÌ ⁄ »…
+Municipality,LBY030201,Ghat,LBY03,LBY0302,€« 
+Municipality,LBY030301,Bint Bayya,LBY03,LBY0303,»‰  »Ì…
+Municipality,LBY030302,Alghrayfa,LBY03,LBY0303,«·€—Ì›…
+Municipality,LBY030303,Ubari,LBY03,LBY0303,√Ê»«—Ì
+Municipality,LBY030401,Al-Jufrah,LBY03,LBY0304,«·Ã›—…
+Municipality,LBY030501,Brak,LBY03,LBY0305,»—«ﬂ «·‘«ÿ∆
+Municipality,LBY030502,Edri,LBY03,LBY0305,≈œ—Ì «·‘«ÿ∆
+Municipality,LBY030503,Algurdha Ashshati,LBY03,LBY0305,«·ﬁ—÷… «·‘«ÿ∆
+Municipality,LBY030601,Sebha,LBY03,LBY0306,”»Â«
+Municipality,LBY030602,Albawanees,LBY03,LBY0306,«·»Ê«‰Ì”
+yes_no,yes,Yes,,,‰⁄„
+yes_no,no,No,,,·«
+rural_urban,rural,Rural,,,—Ì›Ì
+rural_urban,urban,Urban,,,Õ÷—Ì
+shop_type,general_store,Supermarket/general store for food and NFIs,,,"”Ê»—„—ﬂ ,›÷«¡ «·«€–Ì… Ê „” ·“„«  «·‰Ÿ«›…"
+shop_type,central_market,Central market,,,”Êﬁ „—ﬂ“Ì
+shop_type,bakery,Bakery,,,„Œ»“
+shop_type,butcher,Butcher/meat shop,,,„·Õ„…
+shop_type,vegetable,Vegetable seller,,,„Õ· Œ÷—«Ê« 
+shop_type,fuel_shop,Fuel shop,,,„” Êœ⁄ ≈”ÿÊ«‰«  €«“ «·ÿÂÌ
+orgname,acted,ACTED,,,„‰Ÿ„… «ﬂ œ
+orgname,drc,Danish Refugee Council,,,«·„Ã·” «·œ‰„«—ﬂÌ ··«Ã∆Ì‰ (DRC)
+orgname,mercy_corps,Mercy Corps,,,„‰Ÿ„… „Ì—”Ì ﬂÊ—
+orgname,wfp,WFP,,,»—‰«„Ã «·√€–Ì… «·⁄«·„Ì (WFP)
+orgname,other_org_specify,Other (please specify),,,«Œ—Ï («·—Ã«¡ «· ÕœÌœ)
+modalities,cash,Cash,,,‰ﬁœ« 
+modalities,credit_debit_card,Credit or debit card,,,»ÿ«ﬁ… «·«∆ „«‰ √Ê «·Œ’„
+modalities,atib_card,ATIB/Tadawul prepaid card,,,»ÿ«ﬁ… «·œ›⁄ «·„”»ﬁ «·Œ«’ »„’—› «·”—«Ì« ( œ«Ê·)
+modalities,check,Checks,,,«·‘Ìﬂ« 
+modalities,bank_transfer,Bank transfer,,,«· ÕÊÌ· «·„’—›Ì
+modalities,mobile_money,Mobile money,,,«·„⁄«„·«  «·„«·Ì… »«·Â« › «·„Õ„Ê·
+modalities,credit,"On credit (i.e. buy now, pay later)",,,"‘—«¡ »«·œÌ‰ (√Ì «·‘—«¡ «·¬‰° «·œ›⁄ ·«Õﬁ«)"
+modalities,gold,Gold,,,–Â»
+modalities,barter,Barter,,,„ﬁ«Ì÷…
+modalities,online,Online payment services like Paypal,,,Œœ„«  «·œ›⁄ ⁄»— «·≈‰ —‰  „À· »«Ì »«·
+modalities,other_modality,Other (please specify),,,«Œ—Ï («·—Ã«¡ «· ÕœÌœ)
+modalities_supplier,cash,Cash,,,‰ﬁœ« 
+modalities_supplier,check,Checks,,,«·‘Ìﬂ« 
+modalities_supplier,bank_transfer,Bank transfer,,,«· ÕÊÌ· «·„’—›Ì
+modalities_supplier,other_modalities_supplier,Other (please specify),,,«Œ—Ï («·—Ã«¡ «· ÕœÌœ)
+wfp_barter,every_day,Every day,,,ﬂ· ÌÊ„
+wfp_barter,twice_three_times_a_week,Twice or three times a week,,,„— Ì‰ √Ê À·«À „—«  ›Ì «·√”»Ê⁄
+wfp_barter,few_times_per_month,Few times per month,,,„—«  ﬁ·Ì·… Œ·«· «·‘Â—
+wfp_barter,never,Never,,,√»œ«
+wfp_impact,impact_yes,Yes,,,‰⁄„
+wfp_impact,impact_no,No,,,·«
+wfp_impact,I_did_not_notice,I did not notice,,,·„ √·«ÕŸ
+wfp_impact_2,impact_wheat_flour,Wheat flour,,,œﬁÌﬁ «·ﬁ„Õ
+wfp_impact_2,impact_rice,Rice,,,«·√—“
+wfp_impact_2,impact_chickpeas,Chickpeas,,,«·Õ„’
+wfp_impact_2,impact_tomato_paste,Tomato paste,,,„⁄ÃÊ‰ «·ÿ„«ÿ„
+wfp_impact_2,impact_sugar,Sugar,,,«·”ﬂ—
+wfp_impact_2,impact_pasta,Pasta,,,«·„⁄ﬂ—Ê‰…
+wfp_impact_2,impact_vegetable_oil,Vegetable oil,,,“ÌÊ  ‰»« Ì…
+wfp_impact_2,impact_other,Other (please specify),,,«Œ—Ï («·—Ã«¡ «· ÕœÌœ)
+wfp_impact_3,impact_3_yes,Yes,,,‰⁄„
+wfp_impact_3,impact_3_no,No,,,·«
+wfp_impact_3,impact_3_I_did_not_notice,I did not notice,,,·„ √·«ÕŸ
+item,Salt,Salt,,,„·Õ
+item,Sugar,Sugar,,,«·”ﬂ—
+item,Wheat_flour,Wheat flour,,,œﬁÌﬁ «·ﬁ„Õ
+item,Rice,Rice,,,√—“
+item,Pasta,Pasta,,,„⁄ﬂ—Ê‰…
+item,Couscous,Couscous,,,«·ﬂ”ﬂ”
+item,Tomato_paste,Tomato paste,,,„⁄ÃÊ‰ «·ÿ„«ÿ„
+item,Chickpeas,Chickpeas (canned),,,«·Õ„’ («·„⁄·»)
+item,Beans,Beans (canned),,,«·›«’Ê·Ì« («·„⁄·»…)
+item,Condensed_milk,Condensed milk,,,Õ·Ì» „—ﬂ“
+item,Milk,Milk,,,Õ·Ì»
+item,Baby_milk,Baby milk,,,Õ·Ì» «·√ÿ›«·
+item,Green_tea,Green tea,,,‘«Ì √Œ÷—
+item,Black_tea,Black tea,,,‘«Ì √”Êœ
+item,Veg_oil,Vegetable oil,,,“Ì  ‰»« Ì
+item,Tuna,Tuna,,, Ê‰…
+item,Eggs,Eggs,,,»Ì÷
+item,Chicken,Chicken,,,œÃ«Ã
+item,Lamb_meat,Lamb meat,,,·Õ„ Õ„·
+item,Bread,Bread,,,Œ»“
+item,Tomatoes,Tomatoes,,,ÿ„«ÿ„
+item,Onions,Onions,,,»’·
+item,Peppers,Peppers,,,«·›·›·
+item,Potatoes,Potatoes,,,»ÿ«ÿ«
+item,Hand_washing_soap,Hand washing soap,,,€”· «·ÌœÌ‰ «·’«»Ê‰
+item,Laundry_soap,Laundry soap,,,’«»Ê‰ «·€”Ì·
+item,Shampoo,Shampoo,,,‘«„»Ê
+item,Dishwashing_liquid,Dishwashing liquid,,,”«∆· €”Ì· «·’ÕÊ‰
+item,Toothpaste,Toothpaste,,,„⁄ÃÊ‰ «·√”‰«‰
+item,Toothbrush,Toothbrush,,,›—‘«… «·√”‰«‰
+item,Female_sanitary_pads,Female sanitary pads,,,"√‰ÀÏ° «·√œÊ«  «·’ÕÌ…"
+item,Childrens_diapers,Childrenís diapers,,,Õ›«÷«  «·√ÿ›«·
+wfp_replenish,daily,Daily,,,ÌÊ„Ì«
+wfp_replenish,2_7,Between 2 days and 7 days,,,»Ì‰ 2 √Ì«„ Ê 7 √Ì«„
+wfp_replenish,8_15,Between 8 days to 15 days,,,»Ì‰ 8 √Ì«„ ≈·Ï 15 ÌÊ„«
+wfp_replenish,16_21,Between 16 days and 21 days,,,»Ì‰ 16 ÌÊ„« Ê 21 ÌÊ„«
+wfp_replenish,22_more,More,,,√ﬂÀ—
+unavailable,unavailable_yes,Yes,,,‰⁄„
+unavailable,unavailable_no,No,,,·«
+gender,men,Men,,,—Ã«·
+gender,women,Women,,,‰”«¡
+gender,gender_same,Same proportion of men and women,,,‰›” «·‘Ì¡
+gender,gender_dont_know,I donít know,,,·« √⁄—›
+gender_2,gender_yes,Yes,,,‰⁄„
+gender_2,gender_no,No,,,·«
+price_changes,changes_yes,Yes,,,‰⁄„
+price_changes,changes_no,No,,,·«
+vulnerability,Displaced,Displaced population,,,«·”ﬂ«‰ «·‰«“ÕÊ‰
+vulnerability,Female_headed,Female head of household ,,,"√‰ÀÏ° —»… «·√”—…"
+vulnerability,Elderly,Elderly,,,ﬂ»«— «·”‰
+vulnerability,Unaccompanied_children,Unaccompanied children,,,«·√ÿ›«· €Ì— «·„’ÕÊ»Ì‰ 
+vulnerability,Homeless_population,Homeless population,,,«·”ﬂ«‰ «·„‘—œÊ‰
+vulnerability,Child_parent,Child parent / caregiver,,,«·Ê«·œ / „ﬁœ„ «·—⁄«Ì…
+vulnerability,Disabled_population,Disabled population,,,«·”ﬂ«‰ «·„⁄«ﬁÊ‰
+vulnerability,other_vulnerability,Other: please specify,,,€Ì— –·ﬂ (Ì—ÃÏ «· ÕœÌœ)
+liquidity_issue,yes_full,Yes in Full,,,‰⁄„ »«·ﬂ«„·
+liquidity_issue,yes_partially,Yes partially,,,‰⁄„ Ã“∆Ì«
+liquidity_issue,no,Not able to access cash,,,€Ì— ﬁ«œ— ⁄·Ï «·Ê’Ê· ≈·Ï «·‰ﬁœ
+liquidity_issue,no_need_cash,Do not need to make payment in cash,,,·«  Õ «Ã ≈·Ï «·œ›⁄ ‰ﬁœ«
+access_challenge,yes,Yes,,,‰⁄„
+access_challenge,no,No,,,·«
+access_challenge,dk,Don't know,,,·« «⁄—›
+vendor_status,official_vendor,Official vendor,,,—”„?
+vendor_status,unofficial_vendor,Unofficial vendor,,,€?— —”„?
+vendor_status,other,Other,,,√Œ—Ï†
+acted_purpose,jmmi,JMMI,,,„»«œ—… „—«ﬁ»… «·”Êﬁ «·„‘ —ﬂ…
+acted_purpose,pos_monitoring,POS Monitoring,,,„—«ﬁ»… ‰ﬁ«ÿ «·»Ì⁄
+frequency,everyday,Every day,,,ﬂ· ?Ê„
+frequency,4_6daysperweek,4-6 days per week,,, 6 -4 √?«„ ›Ì «·√”»Ê⁄
+frequency,2_3daysperweek,2-3 days per week,,,2-3  √?«„ ›Ì «·√”»Ê⁄
+frequency,onceperweek,Once per week,,,„—… ›Ì «·√”»Ê⁄
+frequency,lessthanonceperweek,Less than once per week,,,√ﬁ· „‰ „—… ›Ì «·√”»Ê⁄
+frequency,other,Other (please specify),,,€?— –·ﬂ (?—ÃÏ «· Õœ?œ)
