@@ -31,6 +31,7 @@ Place your survey and choices csv files under the file `input`. Please note that
 - `choices.file`  Path to your choices csv file as character.  
 - `choices.label` Choices label column to be used as character.  
 - `survey.label` questionnaire label column to be used as character.
+- `constraint.label` sidenote about any constraint related to a question.
 - `output.dir`the directory in which to save the output file (absolute path or relative to current working directory).
 - `output.filename` the name of the file. must end in '.html'   
 - `title` Name of your questionnaire as character.  
