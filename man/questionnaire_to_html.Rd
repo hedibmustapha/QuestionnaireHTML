@@ -35,7 +35,7 @@ Convert an XLSform questionnaire to HTML
 }
 \examples{
 questionnaire_to_html("./input/questionnaire_file.csv", "./input/choices_file.csv", "label::Arabic",
-"label::Arabic", "./output", "survey.html", "Area Based Assessment 2019", TRUE, "arabic")
+"label::Arabic", "constraint_message::Arabic", "./output", "survey.html", "Area Based Assessment 2019", TRUE, "arabic")
 
 questionnaire_to_html("./input/questionnaire_file.csv", "./input/choices_file.csv", "label",
 "label", "./", "questionnaire.html", "Area Based Assessment 2019", FALSE, "")
