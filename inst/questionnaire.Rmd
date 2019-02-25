@@ -32,11 +32,11 @@ knitr::opts_chunk$set(comment = NA)
 ```{r echo=F, eval=T,warning=FALSE, message=FALSE, results='asis'}
 
 for(i in 1:nrow(x$survey)){
-  if(x$q$question_is_categorical(x$survey[i,"name"])){
+  if(x$q$question_is_categorical(tolower(x$survey[i,"name"]))){
     question_type <- unlist(strsplit(as.character(x$survey[i,"type"]), split = " ")) 
     cat("\n")
     cat("\n")
-    cat("**",x$q$question_get_question_label(x$survey[i,"name"]),"**", "  (",question_type[1], ")", sep = "")
+    cat("**",x$q$question_get_question_label(tolower(x$survey[i,"name"])),"**", "  (",question_type[1], ")", sep = "")
     cat("\n")
     cat("\n")
     if(x$survey[i,"constraint.message"] !="" && "constraint.message" %in% names(x$survey)){
@@ -51,14 +51,14 @@ for(i in 1:nrow(x$survey)){
     if(gsub(" ","",as.character(x$survey[i,1])) %in% c("geopoint","note", "begingroup", "begin_group") && x$survey[i,"label"] !=""){
       cat("\n")
       cat("\n")
-      cat("**",x$q$question_get_question_label(x$survey[i,"name"]), "**", sep = "")
+      cat("**",x$q$question_get_question_label(tolower(x$survey[i,"name"])), "**", sep = "")
       cat("\n")
       cat("\n")
     } else{
     if(x$survey[i,"label"] !=""){
       cat("\n")
       cat("\n")
-    cat("**",x$q$question_get_question_label(x$survey[i,"name"]), "**", "   (",as.character(x$survey[i,"type"]),")", sep = "")
+    cat("**",x$q$question_get_question_label(tolower(x$survey[i,"name"])), "**", "   (",as.character(x$survey[i,"type"]),")", sep = "")
     cat("\n")
     cat("\n")
     if(x$survey[i,"constraint.message"] !="" && "constraint.message" %in% names(x$survey)){
