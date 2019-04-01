@@ -1,4 +1,4 @@
-type,name,label::English,required,default,relevant,appearance,constraint,constraint_message::English,label::Arabic (ar),constraint_message::Arabic (ar),choice_filter,calculation,hint::English (en),hint::Arabic (ar),repeat_count
+type,name,label::English,required,default,relevant,appearance,constraint,constraint_message::English,label::Arabic,constraint_message::Arabic,choice_filter,calculation,hint::English (en),hint::Arabic (ar),repeat_count
 start,start,,,,,,,,,,,,,,
 end,end,,,,,,,,,,,,,,
 today,today,,,,,,,,,,,,,,
