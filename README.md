@@ -50,4 +50,4 @@ questionnaire_to_html("./input/questionnaire_file.csv", "./input/choices_file.cs
 "label", "./", "questionnaire.html", "Area Based Assessment 2019", FALSE, "")    
 
 **Quickstart youtube video**   
-[Please Click here to access to the Youtube Video](https://youtu.be/c4BZftyJ5EI)
+[Please Click here to access the Youtube Video](https://youtu.be/c4BZftyJ5EI)
