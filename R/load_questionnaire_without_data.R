@@ -13,8 +13,8 @@ load_questionnaire_without_data<-function(questions.file, choices.file, choices.
   colnames(data_str)<-raw_questionnaire$name
   data_str<-as.data.frame(data_str)
   loaded_questionnaire<-koboquest::load_questionnaire(data = data_str,
-                                                      questions.file = questions.file,
-                                                      choices.file = choices.file,
+                                                      questions.file,
+                                                      choices.file,
                                                       choices.label.column.to.use = choices.label.column.to.use)
   return(loaded_questionnaire)
 }
