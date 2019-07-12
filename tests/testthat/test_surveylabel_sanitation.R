@@ -1,6 +1,6 @@
 context(" Survey label sanitation")
 
-test_that("The survey language column label::[language] should be rename it label", {
+test_that("The survey language column label::[language] should be rename it to label", {
 
   expect_equal(sanitise_survey_label("label::English", c("type","name","label::English","required","relevant")),
                c("type","name","label","required","relevant"))
