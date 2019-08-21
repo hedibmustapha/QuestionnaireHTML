@@ -41,7 +41,7 @@ questionnaire_to_html <-function(survey.file, choices.file, choices.label, surve
     names(choices) <- sanitise_choices_label_listname(choices.label,names(choices))
 
 
-    q <- load_questionnaire_without_data(questions.file = survey.file, choices.file = choices.file, choices.label.column.to.use = choices.label)
+    q <- load_questionnaire_without_data(questions.file = survey.file,choices.file = choices.file,choices.label.column.to.use = choices.label)
 
     inputs <- list(q = q,
                    survey = survey,
