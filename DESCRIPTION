@@ -14,5 +14,6 @@ Remotes:
     github::mabafaba/koboquest
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr
