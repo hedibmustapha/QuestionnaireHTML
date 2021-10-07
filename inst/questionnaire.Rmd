@@ -44,7 +44,7 @@ for(i in 1:nrow(x$survey)){
     }
     cat("\n")
     cat("\n")
-    cat(as.character(x$choices[x$choices["list_name"]==question_type[2],"label"]), " ",sep = "  [...]  ")
+    cat(as.character(x$choices[x$choices[["list_name"]]==question_type[2],"label"]), " ",sep = "  [...]  ")
     
     
   } else{
